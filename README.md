@@ -13,9 +13,9 @@ download and import it in your project
 create a database with name article and username article.
 then use below query to create tables.
 
-  CREATE TABLE TEST(ID NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) , TAGS VARCHAR(255) , VIEWS INT(4));
+  `CREATE TABLE TEST(ID NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) , TAGS VARCHAR(255) , VIEWS INT(4));`
   
-  CREATE TABLE USERS(ID NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) , LANGUAGE(255) , VIEWS INT(4));
+ `CREATE TABLE USERS(ID NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) , LANGUAGE(255) , VIEWS INT(4));`
   
 Afte that insert dat manually and see the suggestion system working like a charm.
 
